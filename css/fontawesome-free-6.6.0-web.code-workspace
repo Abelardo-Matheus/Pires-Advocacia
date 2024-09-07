@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "fontawesome-free-6.6.0-web",
+			"path": "../../../../Downloads/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web"
+		},
+		{
+			"name": "Pires-Advocacia",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pires-Advocacia"
+	}
+}

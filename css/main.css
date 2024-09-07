@@ -1,3 +1,84 @@
+body {
+  background-color: #6C757D;
+}
+.icon-left {
+  font-size: 50px;
+  color: #004b6b;
+  margin-right: 15px;
+  float: left; /* Coloca o ícone à esquerda */
+}
+.icon-right {
+  font-size: 50px;
+  color: #004b6b;
+  margin-left: 15px;
+  float: right; /* Coloca o ícone à direita */
+}
+.col-md-5 {
+  padding-left: 10px; /* Ajuste o espaçamento à esquerda */
+  padding-right: 10px; /* Ajuste o espaçamento à direita */
+
+
+
+}
+.titulo{
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.colun{
+  padding-bottom: 20px;
+}
+
+.row {
+  justify-content: center; /* Alinha as colunas no centro */
+}
+
+.boxin {
+  padding-left: 50px; /* Diminui o espaçamento à esquerda */
+  padding-right: 50px; /* Diminui o espaçamento à direita */
+
+}
+
+.clearfix {
+  clear: both;
+}
+.feature-box {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: #f8f9fa;
+  height: 100%;
+  
+}
+.texto {
+  flex: 1; /* Faz o texto ocupar o espaço restante */
+}
+.feature-caixa {
+  display: flex; /* Define layout em flexbox */
+  align-items: center; /* Alinha o ícone e o texto verticalmente no centro */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #f8f9fa;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  margin-bottom: 10px;
+  
+
+}
+.icon {
+  font-size: 40px;
+  color: #004b6b;
+  margin-bottom: 10px;
+}
+.btn-custom {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
 
 .container-com-imagem {
   background-image: url('/images/macroarq_arquitetura_interiores_corporativo_projeto_escritorio_advocacia_hall_entrada_piso_elevado_carpete_madeira_cumaru_divisoria_serralheria_vidro_funcional_clean.jpg');
@@ -20,29 +101,26 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Sobreposição escura: 50% de opacidade */
-  z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
+  background-color: rgba(0, 0, 0, 0.8); /* Sobreposição escura */
+  z-index: 1;
 }
 
 .container-com-imagem > * {
   position: relative;
-  z-index: 2; /* Garante que o conteúdo fique acima da sobreposição */
+  z-index: 2;
 }
 
- .sub_texto {
+.titulo, .sub_texto {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #6C757D, 1px -1px 0 #6C757D, -1px 1px 0 #6C757D, 1px 1px 0 #6C757D;
 }
 
 .titulo {
-  color: white;
   font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 .sub_texto {
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
 }
 
 .btn-success {
@@ -50,20 +128,11 @@
   border-color: #28a745;
   font-size: 1.2rem;
   padding: 10px 20px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.my-3 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 span {
   font-size: 2rem;
 }
-
 
 .row-alta {
   margin-top: 170px;
@@ -71,4 +140,15 @@ span {
 
 .text-center {
   text-align: center;
+}
+
+.feature-box {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.icon {
+  color: #6C757D;
+  font-size: 50px;
 }
