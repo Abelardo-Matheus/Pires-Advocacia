@@ -30,21 +30,16 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 Aqui estão algumas capturas de tela do site:
 
 ### Página Inicial
-![Página Inicial](![image](https://github.com/user-attachments/assets/fe8641fc-74cf-4148-958c-53eb42231c4c)
-)
+![image](https://github.com/user-attachments/assets/fe8641fc-74cf-4148-958c-53eb42231c4c)
+
 
 ### Confira nossas atuações
-![Página de Serviços](![image](https://github.com/user-attachments/assets/27c49716-84da-4d87-bd2b-b829f36d07b3)
-)
+![image](https://github.com/user-attachments/assets/27c49716-84da-4d87-bd2b-b829f36d07b3)
+
 
 ### Diferencial
-![Página de Contato](![image](https://github.com/user-attachments/assets/3cae46ed-a69f-4020-8a27-5fe98f4facff)
-)
+![image](https://github.com/user-attachments/assets/3cae46ed-a69f-4020-8a27-5fe98f4facff)
 
-## 🚀 Como Executar o Projeto
 
-Siga os passos abaixo para executar o projeto localmente:
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+🙌 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
